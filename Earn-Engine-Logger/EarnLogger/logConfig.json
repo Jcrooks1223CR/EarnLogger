@@ -1,0 +1,32 @@
+{
+  "console": {
+    "level": "error",
+    "publish": true,
+    "http": false,
+    "trace": false,
+    "data": false
+  },
+  "file": {
+    "level": "error",
+    "publish": false,
+    "location": "./",
+    "name": "default.log",
+    "http": false,
+    "trace": false,
+    "data": false
+  },
+  "api": {
+    "level": "error",
+    "publish": true,
+    "http": true,
+    "trace": true,
+    "data": true
+  },
+  "db": {
+    "level": "error",
+    "publish": false,
+    "http": false,
+    "trace": false,
+    "data": false
+  }
+}
